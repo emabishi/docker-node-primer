@@ -7,9 +7,9 @@ To create a container based off of the image, run the command:
  `docker run --name <container-name> -d -p <local-port>:<container-exposed-port> <image-name>`
 
 ```
-The -d flag runs the container in a detatched state in the background
+The -d flag runs the container in a detatched state in the background.
 The -p flag maps a local port to an exposed container port.
-The --name flag allows you to give your container a name
+The --name flag allows you to give your container a name.
 ```
 
 To get the id of your container run `docker ps`
