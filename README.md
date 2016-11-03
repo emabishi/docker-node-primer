@@ -15,3 +15,6 @@ The --name flag allows you to give your container a name.
 To get the id of your container run `docker ps`
 To confirm that your server has started, run the comand `docker logs <container-id>`
 To make a curl request to the routes defined in the app. Run the commands: `curl -i http:localhost:<local-port>` and `curl -i http:localhost:<local-port>/home`
+
+#### Notes
+You must have Docker installed on your local machine.
